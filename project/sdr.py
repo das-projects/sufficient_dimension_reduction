@@ -9,7 +9,9 @@ as a scalable GPU backend for versatile, high-level libraries such
 as `GPytorch <https://gpytorch.ai/>`.
 
 Due to hard-coded constraints within the structure of GPytorch,
-the syntax presented below is pretty verbose. But the idea is to use the 
+the syntax presented below is pretty verbose. But the idea is to use the representation learning in the moco
+folder to define the kernel, such that the latent dimension is only minimally sufficient and then subsequently
+perform the prediction.  
 """
 
 #####################################################################
