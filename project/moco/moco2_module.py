@@ -1,9 +1,5 @@
 """Adapted from: https://github.com/facebookresearch/moco.
 Original work is: Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved
-This implementation is: Copyright (c) PyTorch Lightning, Inc. and its affiliates. All Rights Reserved
-This implementation is licensed under Attribution-NonCommercial 4.0 International;
-You may not use this file except in compliance with the License.
-You may obtain a copy of the License from the LICENSE file present in this folder.
 """
 from argparse import ArgumentParser
 from typing import Union, Any, Dict, List, Tuple, Type
@@ -45,8 +41,7 @@ from pykeops.torch import LazyTensor
 class Moco_v2(LightningModule):
     """PyTorch Lightning implementation of `Moco <https://arxiv.org/abs/2003.04297>`_
     Paper authors: Xinlei Chen, Haoqi Fan, Ross Girshick, Kaiming He.
-    Code adapted from `facebookresearch/moco <https://github.com/facebookresearch/moco>`_ to Lightning by:
-        - `William Falcon <https://github.com/williamFalcon>`_
+    Code adapted from `facebookresearch/moco <https://github.com/facebookresearch/moco>`_ to Lightning
     Example::
         from pl_bolts.models.self_supervised import Moco_v2
         model = Moco_v2()
